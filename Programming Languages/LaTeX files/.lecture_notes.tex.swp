@@ -46,18 +46,18 @@
 
 \subsubsection{Assembler}
 
-In the early days of computing, Machine Instructions were used to represent the programs, however, due to the complexity of this method, first Assemblers were produced, these assemblers assembled assembly instructions, which used one-to-one correspondence between machine instructions and their mnemonics, to machine instructions to create executable files.\\
+In the early days of computing, Machine Instructions were used to represent the programs, however, due to the complexity of this method, first Assemblers were produced, these assemblers assembled assembly instructions, which used one-to-one correspondence between machine instructions and their mnemonics, to machine instructions to create executable files.
 
 \textit{Examples: x86 Assembly}
 
 
 \subsubsection{Compiler}
-Compilers create executables from high level languages by translating them to the Assembly or Machine Code instructions. Compilers lack the one-to-one correspondence between mnemonics and instructions that is found in assemblers, but state-of-the art compilers produce better code than any human will. Labor costs now outweigh the hardware costs.\\
+Compilers create executables from high level languages by translating them to the Assembly or Machine Code instructions. Compilers lack the one-to-one correspondence between mnemonics and instructions that is found in assemblers, but state-of-the art compilers produce better code than any human will. Labor costs now outweigh the hardware costs.W
 
 \textit{Examples: C, Fortran}
 
 \subsubsection{Interpreter}
-Interpreters do not produce output programs, rather, they take the input and output together and execute them together.\\
+Interpreters do not produce output programs, rather, they take the input and output together and execute them together.
 
 \textit{Examples: Python, R, Lua}
 
@@ -70,7 +70,6 @@ By providing a target architecture that can be shared by multiple architectures 
 \textit{Examples: C\#, Java}
 
 \section{Compiler Systems}
-
 \begin{figure}[h!]
 	\center
 	\includegraphics[scale=0.5]{../figures/01_phases_of_compilation.png}
@@ -78,6 +77,7 @@ By providing a target architecture that can be shared by multiple architectures 
 \end{figure}
 
 \subsection{Auxillary Systems}
+
 \subsubsection{Linker}
 Linker links external libraries to the program enabling usage of wider machine instructions, linker's linked library's instructions are added after the inital compilation of the source code to an incomplete set of machine instructions.
 \subsubsection{Preprocessor}
@@ -95,7 +95,7 @@ Semantic analysis is the checking of all the other rules not captured by the con
 
 \chapter{Programming Language Syntax}
 
-\center{Representation of the Context Free Grammars is the Backus-Naur Form, sometimes shortened to BNF, this representation can relaibly express any context free grammar.}
+{\center Representation of the Context Free Grammars is the Backus-Naur Form, sometimes shortened to BNF, this representation can relaibly express any context free grammar.}
 
 \subsection{Example}
 
